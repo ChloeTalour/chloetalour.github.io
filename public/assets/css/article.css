@@ -1,0 +1,127 @@
+@media only screen and (min-width: 1px) {
+    h4 {
+        font-family: "sweet-cake";
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    .experiences-article {
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        display: flex;
+        position: relative;
+        border-right: 1px solid black;
+    }
+
+    .experiences-article_data {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+    }
+
+    .experiences-article_data_time_div {
+        position: relative;
+    }
+
+    .experiences-article_data_line_mobile {
+        width: 1px;
+        background-color: black;
+        margin-left: 1.5em;
+    }
+
+    .experiences-article_data_time { 
+        border: 1px solid rgb(224, 218, 218);
+        padding: 0.8em;
+        border-radius: 10px;
+        display: inline;
+        box-shadow: 1px 6px 36px -23px black;
+        font-weight: bold;
+        color: black;
+        margin-right: 1.5em;
+
+    }
+
+
+    .experiences-article_data_description {
+        margin: 1em auto 0em auto;
+        padding-right: 1.3em;
+        margin-bottom: 1.5em;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-bottom: 1em;
+        border-bottom: 1px dotted  rgba(188, 143, 143, 0.2); 
+    }
+
+    .experiences-article_data_circle {
+        width: 1em;
+        height: 1em;
+        border-radius: 20px;
+        background: lightblue;
+        position: absolute;
+        right: -8px;
+        top: 3px;
+    }
+
+    .experiences-article_data_time_div {
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-width: 426px) {
+    .experiences-article { 
+        border: none;
+    }
+
+    .experiences-article_data_line {
+        width: 1px;
+        background-color: black;
+        height: 100px;
+        margin-right: 1.5em;
+    }
+
+    .experiences-article_data {
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+    }
+
+    .experiences-article_data_description {
+        width: 38%;
+        margin-bottom: 0em;
+    }
+
+    .experiences-article_data_time {
+        float: right;
+    }
+
+    .experiences-article_data_time_div {
+        width: 50%;
+        position: relative;
+    }
+
+
+    .experiences-article_data_circle {
+        width: 1em;
+        height: 1em;
+        border-radius: 20px;
+        background: lightblue;
+        position: absolute;
+        right: -8px;
+        top: 17px;
+    }
+
+   
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 2560px) {
+    
+    .experiences-article_data_time {
+        font-size: 1.1em;
+    }
+
+    h4 {
+        font-size: 3em;
+    }
+}

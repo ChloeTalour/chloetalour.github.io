@@ -1,0 +1,166 @@
+
+
+
+/* MOBILE  */
+@media only screen and (min-width: 1px) {
+
+    .second-section {
+        background-color: black;
+    }
+
+    .wave-bottom {
+        max-width: 100%;
+        width: 120%;
+    }
+
+    h2 {
+        font-family: "sweet-cake";
+        font-size: 2em;
+        text-align: center;
+        color: white;
+        margin: auto;
+        padding-bottom: 0.5em;
+    }
+
+    .second-section_frise__date__element {
+        margin-left: 1em;
+        margin-right: 0.5em;
+        border: 1px solid white;
+        padding: 0.8em;
+        border-radius: 10px;
+        display: inline-block;
+        font-weight: bold;
+        color: white;
+        font-size: 1.1em;
+    }
+
+    .second-section_frise__date__text {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        margin-bottom: 2em;
+        padding-left: 2.3em;
+        width: 90%;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+    }
+
+    .second-section_frise__date__school {
+        display: block;
+        text-transform: none;
+        padding-top: 1em;
+        font-weight: lighter;
+        
+
+    }
+
+    .second-section_frise {
+        display: flex;
+    }
+
+    .second-section_frise__date {
+        border-left: 0.5px solid white;
+        margin-left: 0.5em;
+    }
+
+    .second-section_frise__date__first{
+        position: relative;
+    }
+
+    .line-frise {
+        margin-left: 1em;
+        border-radius: 1em;
+        display: inline-block;
+    }
+
+    .circle {
+        width: 1em;
+        height: 1em;
+        border-radius: 20px;
+        background: lightblue;
+        position: absolute;
+        left: -9px;
+        top: 17px;
+    }
+
+
+
+}
+
+/* TABLETTE  */
+@media screen and (min-width: 426px) {
+
+    .second-section_frise__date {
+        margin-left: 49%;
+    }
+
+    .second-section_frise__date__element {
+        position: absolute;
+    }
+
+    .second-section_frise__date__text {
+        padding-bottom: 1em;
+        border-bottom: 1px dotted  rgba(188, 143, 143, 0.2); 
+    }
+
+    .frise-first {
+        left: -310px;
+    }
+
+    .frise-second {
+        left: -358px;
+    }
+
+    .frise-third {
+        left: -326px;
+    }
+
+    .frise-four {
+        left: -260px;
+    }
+
+    .frise-five {
+        left: -150px;
+    }
+}
+
+/* ORDI PORTABLE   */
+@media screen and (min-width: 769px) and (max-width: 2560px) {
+    h2 {
+        font-size: 3em;
+    }
+}
+
+/* TV ou 4K  */
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+    h2 {
+        font-size: 3em;
+    }
+
+    .second-section_frise__date__element { 
+        font-size: 1.1em;
+    }
+
+
+
+    .frise-first {
+        left: -360px;
+    }
+
+    .frise-second {
+        left: -415px;
+    }
+
+    .frise-third {
+        left: -376px;
+    }
+
+    .frise-four {
+        left: -298px;
+    }
+
+    .frise-five {
+        left: -170px;
+    }
+}

@@ -1,0 +1,215 @@
+@media only screen and (min-width: 1px) { 
+    @font-face {
+    font-family: "sweet-cake";
+    src: url("../images/Sweet\ Cake.otf");
+    }
+
+    @font-face {
+        font-family: "fragment";
+        src: url("../images/Fragmentcore.otf");
+    }
+
+    main {
+        position: relative;
+    }
+
+    .all-images {
+        position: relative;
+    }
+
+    .img-astro {
+        position: absolute;
+        top: 5%;
+        width: 26%;
+        right: 0;
+    }
+
+    .img-saturn {
+        position: absolute;
+        width: 20%;
+        top: -10%;
+        left: 2%;
+    }
+
+    .img-laptop {
+        position: absolute;
+        width: 17%;
+        top: 26%;
+        right: 22%;
+    }
+
+    .img-moon {
+        position: absolute;
+        width: 13%;
+        top: -10%;
+        right: 45%;
+    }
+
+    .img-earth {
+        position: absolute;
+        width: 11%;
+        top: 46%;
+        left: 27%;
+    }
+
+    h1{
+        font-family: "sweet-cake";
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .super-tache {
+        display: none;
+    }
+
+    .super-tache-astro {
+        display: none;
+    }
+
+    .presentation {
+        display: block;
+       margin: auto;
+       width: 85%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        text-align: justify;
+    }
+
+    .presentation p {
+        padding-left: 1em;
+        padding-right: 1em;
+        font-family: 'fragment';
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .img-laptop {
+        top: 34%;
+        right: 22%;
+    }
+
+    .img-earth {
+        width: 10%;
+        top: 50%;
+        left: 25%;
+    }
+
+    .img-moon {
+        top: 1%;
+        left: 43%;
+    }
+
+    .presentation {
+        display: block;
+        width: 65%;
+        margin: auto;
+    }
+
+
+}
+
+@media screen and (min-width: 769px) {
+
+    .img-astro {
+        top: 8%;
+        width: 28%;
+        right: 1%;
+    }
+
+    .img-saturn {
+        width: 17%;
+        top: -9%;
+        left: 5%;
+    }
+
+    .img-laptop {
+        width: 15%;
+        top: 36%;
+        right: 26%;
+    }
+
+    .img-moon {
+        width: 10%;
+        top: 20%;
+        left: 44%;
+    }
+
+    .img-earth {
+        width: 9%;
+        top: 62%;
+        left: 24%;
+    }
+
+    .super-tache {
+        display: block;
+        width: 27%;
+        margin-left: 4em;
+        margin-top: 1em;
+    }
+
+    .super-wave {
+        display: none;
+    } 
+
+    .super-tache-astro {
+        display: block;
+        position: absolute;
+        width: 30%;
+        right: 10px;
+        top: 21px;
+    }
+
+    .presentation {
+        margin: 0;
+        width: 60%;
+        margin-left: 2.5em;
+        text-align: right;
+
+    }
+}
+
+/* LAPTOP L  */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+    .img-astro {
+        top: 8%;
+        width: 25%;
+        right: 1%;
+    }
+
+    .img-saturn {
+        width: 17%;
+        top: -10%;
+        left: 2%;
+    }
+
+    .img-laptop {
+        width: 15%;
+        top: 38%;
+        right: 23%;
+    }
+
+    .img-moon {
+        width: 11%;
+        top: 15%;
+        left: 40%;
+    }
+
+    .img-earth {
+        width: 8%;
+        top: 63%;
+        left: 23%;
+    }
+
+    .presentation {
+        width: 64%;
+        text-align: right;
+        margin: 0;
+        margin-right: 3em;
+    }
+
+}
+
+/* TV ou 4K  */
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+}

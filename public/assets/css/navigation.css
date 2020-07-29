@@ -1,0 +1,129 @@
+/* MOBILE  */
+@media only screen and (min-width: 1px) {
+    .menu {
+        display: none;
+        /* Ici, on demande à .nav-wrapper (le conteneur flex) de réserver 100% de sa largeur à son enfant .menu. Il tombera donc toujours en dessous. Ouf, le menu reste en dessous quelle que soit la largeur de la fenêtre. */
+        flex-basis: 100%;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .menu-checkbox {
+        opacity: 0;
+        position: absolute;
+        top: -1000px;
+    }
+
+    /* Avec le « ~ » on sélectionne les éléments ayant pour classe .menu précédés d’un élément ayant pour classe .menu-checkbox. Avec la pseudo classe :checked, on s’assure de sélectionner .menu uniquement si .menu-checkbox est cochée. */
+    .menu-checkbox:checked ~ .menu {
+        display: block;
+    }
+
+    .menu-checkbox:focus + .menu-toggle {
+        outline: #ffffff auto 5px;
+    }
+
+    .menu-toggle {
+        padding: .5em 1em;
+        color: rgb(255, 255, 255);
+    }
+
+    .menu-item_li {
+        text-align: center;
+        padding: 0.5em;
+        color: rgb(255, 255, 255);
+    }
+
+    .menu-item_li:hover{
+        color:  rgb(130, 161, 172) ;
+    }
+
+    .first-item {
+        border-top: 1px solid rgb(212, 182, 182);
+    }
+
+    /* Ici, on sélectionne notre <label> avec la classe .menu-toggle s’il est adjacent (« + ») à notre checkbox cochée et on lui ajoute une outline. Ce qui veut dire que le <label> aura un joli cadre quand la checkbox recevra le focus. Un utilisateur voyant, mais naviguant au clavier saura donc qu’il peut ouvrir le menu quand il aura placé le focus sur la checkbox. */
+
+    .nav-wrapper {
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+       
+        background-color:black; 
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+
+    .menu {
+        margin: 0;
+        max-height: 1000px;
+        opacity: 1;
+        padding: 0;
+        visibility: visible;
+    }
+
+    .first-item {
+        border-top: none;
+    }
+
+    .menu-toggle,
+    .menu-checkbox {
+        display: none;
+    }
+
+    .nav-wrapper {
+        background: linear-gradient(34deg, #bbded6 16%, rgba(0, 0, 0, 0) 6%), linear-gradient(155deg, #8ac6d1 84%, #bbded6 47%);
+
+        /* background-color:#8ac6d1; */
+    }
+
+}
+
+/* ORDI PORTABLE   */
+@media screen and (min-width: 769px) and (max-width: 2560px) {
+    .menu {
+        
+        display: flex;
+        justify-content: center;
+        padding-top: 0.4em;
+        padding-bottom: 0.5em;
+        background: none;
+        border-bottom-right-radius: 40%;
+        border-bottom-left-radius: 40%;
+    }
+
+    .menu-item {
+        padding: 1em;
+        font-size: 0.8em;
+    }
+
+    .nav-wrapper {
+        background: transparent;
+    }
+
+    .menu-item_li {
+        color: black;
+    }
+
+
+
+
+}
+
+/* LAPTOP L  */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    
+    .menu-item {
+    font-size: 1em;
+    }
+}
+
+/* TV ou 4K  */
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+    
+    .menu-item {
+    font-size: 1em;
+    }
+}
