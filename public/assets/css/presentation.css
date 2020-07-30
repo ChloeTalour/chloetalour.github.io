@@ -9,6 +9,44 @@
         src: url("../images/Fragmentcore.otf");
     }
 
+
+    .custom-shape-divider-bottom-1596091591 {
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1596091591 svg {
+        display: block;
+        width: calc(114% + 1.3px);
+        height: 78px;
+    }
+    
+    .custom-shape-divider-bottom-1596091591 .shape-fill {
+        fill: #000000;
+    }
+
+    .custom-shape-divider-top-1596121097 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1596121097 svg {
+        position: relative;
+        display: block;
+        width: calc(106% + 1.3px);
+        height: 49px;
+    }
+    
+    .custom-shape-divider-top-1596121097 .shape-fill {
+        fill: #000000;
+    }
+
     main {
         position: relative;
     }
@@ -71,7 +109,7 @@
        margin: auto;
        width: 85%;
         padding-top: 1em;
-        padding-bottom: 1em;
+        padding-bottom: 3em;
         text-align: justify;
     }
 

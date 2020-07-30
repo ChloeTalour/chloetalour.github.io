@@ -1,37 +1,27 @@
-
-
-
-/* MOBILE  */
 @media only screen and (min-width: 1px) {
-
-    .second-section {
-        background-color: black;
-    }
-
-    .wave-bottom {
-        max-width: 100%;
-        width: 120%;
-    }
-
     h2 {
         font-family: "sweet-cake";
         font-size: 2em;
         text-align: center;
         color: white;
-        margin: auto;
-        padding-bottom: 0.5em;
+        transform: rotate(-5deg);
+        margin-bottom: 1em;
+    }
+
+    .section-parcours_article {
+        background-color:black;
     }
 
     .second-section_frise__date__element {
         margin-left: 1em;
         margin-right: 0.5em;
-        border: 1px solid white;
+        border: 1px solid rgb(255, 255, 255);
         padding: 0.8em;
         border-radius: 10px;
         display: inline-block;
+        /* box-shadow: 1px 6px 36px -23px black; */
         font-weight: bold;
-        color: white;
-        font-size: 1.1em;
+        color: rgb(255, 255, 255);
     }
 
     .second-section_frise__date__text {
@@ -44,6 +34,7 @@
         text-transform: uppercase;
         font-weight: bold;
         color: white;
+        font-size: 0.8em;
     }
 
     .second-section_frise__date__school {
@@ -51,16 +42,15 @@
         text-transform: none;
         padding-top: 1em;
         font-weight: lighter;
-        
-
     }
 
     .second-section_frise {
         display: flex;
+        padding-bottom: 1em;
     }
 
     .second-section_frise__date {
-        border-left: 0.5px solid white;
+        border-left: 1px solid rgb(255, 255, 255);
         margin-left: 0.5em;
     }
 
@@ -78,7 +68,7 @@
         width: 1em;
         height: 1em;
         border-radius: 20px;
-        background: lightblue;
+        background: rgb(255, 0, 0);
         position: absolute;
         left: -9px;
         top: 17px;
@@ -88,11 +78,13 @@
 
 }
 
-/* TABLETTE  */
-@media screen and (min-width: 426px) {
-
+@media only screen and (min-width: 768px) {
     .second-section_frise__date {
         margin-left: 49%;
+    }
+
+    .second-section_frise {
+        transform: rotate(-5deg);
     }
 
     .second-section_frise__date__element {
@@ -124,43 +116,9 @@
         left: -150px;
     }
 }
-
-/* ORDI PORTABLE   */
-@media screen and (min-width: 769px) and (max-width: 2560px) {
-    h2 {
-        font-size: 3em;
-    }
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {}
 
 /* TV ou 4K  */
-@media screen and (min-width: 1441px) and (max-width: 2560px) {
-    h2 {
-        font-size: 3em;
-    }
-
-    .second-section_frise__date__element { 
-        font-size: 1.1em;
-    }
-
-
-
-    .frise-first {
-        left: -360px;
-    }
-
-    .frise-second {
-        left: -415px;
-    }
-
-    .frise-third {
-        left: -376px;
-    }
-
-    .frise-four {
-        left: -298px;
-    }
-
-    .frise-five {
-        left: -170px;
-    }
-}
+@media screen and (min-width: 1441px) and (max-width: 2560px) {}

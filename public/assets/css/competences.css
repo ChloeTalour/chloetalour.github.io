@@ -1,12 +1,13 @@
+footer {
+    background-color: rgb(212, 182, 182);
+    text-align: center;
+    padding: 1em;
+}
 
 @media only screen and (min-width: 1px) {
     .fourth-section_card {
         display: flex;
         flex-wrap: wrap;
-    }
-
-    .fourth-section {
-        background-color: black;
     }
 
     .fourth-section_card__article {
@@ -21,6 +22,11 @@
         height: 7em;
         margin: auto;
         padding-top: 1em;
+    }
+
+    .fourth-section {
+        background-color: black;
+        padding-bottom: 1em;
     }
 
 
