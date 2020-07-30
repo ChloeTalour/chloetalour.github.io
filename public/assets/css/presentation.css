@@ -110,13 +110,13 @@
        width: 85%;
         padding-top: 1em;
         padding-bottom: 3em;
-        text-align: justify;
     }
 
     .presentation p {
         padding-left: 1em;
         padding-right: 1em;
-        font-family: 'fragment';
+        font-weight: lighter;
+        
     }
 }
 

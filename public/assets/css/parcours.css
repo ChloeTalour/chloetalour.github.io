@@ -65,13 +65,14 @@
     }
 
     .circle {
-        width: 1em;
-        height: 1em;
+        width: 2.8em;
+        height: 3.2em;
         border-radius: 20px;
-        background: rgb(255, 0, 0);
+       
         position: absolute;
-        left: -9px;
-        top: 17px;
+        left: -23px;
+        top: 1px;
+        content: url(../images/sarturna.png);
     }
 
 

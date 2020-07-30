@@ -57,13 +57,13 @@
     }
 
     .experiences-article_data_circle {
-        width: 1em;
-        height: 1em;
+        width: 2.2em;
+        height: 2em;
         border-radius: 20px;
-        background: rgb(255, 0, 0);
         position: absolute;
-        right: -8px;
-        top: 3px;
+        right: -18px;
+        top: -3px;
+        content: url(../images/meteore.png);
     }
 
     .experiences-article_data_time_div {
@@ -105,13 +105,8 @@
 
 
     .experiences-article_data_circle {
-        width: 1em;
-        height: 1em;
-        border-radius: 20px;
-        background: rgb(0, 0, 0);
-        position: absolute;
-        right: -8px;
-        top: 17px;
+        right: -18px;
+        top: 9px;
     }
 
     .third-section-frise {
