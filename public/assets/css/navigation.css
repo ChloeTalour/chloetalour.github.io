@@ -37,9 +37,7 @@
         color:  rgb(130, 161, 172) ;
     }
 
-    .first-item {
-        border-top: 1px solid rgb(212, 182, 182);
-    }
+
 
     /* Ici, on sélectionne notre <label> avec la classe .menu-toggle s’il est adjacent (« + ») à notre checkbox cochée et on lui ajoute une outline. Ce qui veut dire que le <label> aura un joli cadre quand la checkbox recevra le focus. Un utilisateur voyant, mais naviguant au clavier saura donc qu’il peut ouvrir le menu quand il aura placé le focus sur la checkbox. */
 

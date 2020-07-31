@@ -1,4 +1,6 @@
 @media only screen and (min-width: 1px) { 
+
+    /**************** FONTS *****************/
     @font-face {
     font-family: "sweet-cake";
     src: url("../images/Sweet\ Cake.otf");
@@ -10,6 +12,7 @@
     }
 
 
+    /**************** WAVES *****************/
     .custom-shape-divider-bottom-1596091591 {
         width: 100%;
         overflow: hidden;
@@ -47,10 +50,7 @@
         fill: #000000;
     }
 
-    main {
-        position: relative;
-    }
-
+    /************** IMAGES **************/
     .all-images {
         position: relative;
     }
@@ -90,18 +90,20 @@
         left: 27%;
     }
 
-    h1{
-        font-family: "sweet-cake";
-        font-size: 3em;
-        text-align: center;
-    }
-
     .super-tache {
         display: none;
     }
 
     .super-tache-astro {
         display: none;
+    }
+
+    /*************** CONTENU *************/
+    h1{
+        font-family: "sweet-cake";
+        font-size: 3em;
+        text-align: center;
+        padding-top: 0.5em;
     }
 
     .presentation {
@@ -118,9 +120,15 @@
         font-weight: lighter;
         
     }
+
+    main {
+        position: relative;
+    }
 }
 
 @media only screen and (min-width: 768px) {
+
+    /**************** IMAGES *****************/
     .img-laptop {
         top: 34%;
         right: 22%;
@@ -137,6 +145,7 @@
         left: 43%;
     }
 
+    /**************** CONTENU *****************/
     .presentation {
         display: block;
         width: 65%;
@@ -148,6 +157,7 @@
 
 @media screen and (min-width: 769px) {
 
+    /**************** IMAGES *****************/
     .img-astro {
         top: 8%;
         width: 28%;
@@ -197,21 +207,34 @@
         top: 21px;
     }
 
-    .presentation {
-        margin: 0;
-        width: 60%;
-        margin-left: 2.5em;
+    /**************** CONTENU *****************/
+    .title-text-presentation {
+        width: 64%;
         text-align: right;
+    }
 
+    .title-text-presentation h1 {
+        text-align: right;
+    }
+
+    .presentation {
+        margin: 0em;
+        width: 100%;
+        padding-right: 0em;
+    }
+
+    .presentation p {
+        padding-right: 0em;
     }
 }
 
 /* LAPTOP L  */
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
 
+    /**************** IMAGES *****************/
     .img-astro {
         top: 8%;
-        width: 25%;
+        width: 23%;
         right: 1%;
     }
 
@@ -222,13 +245,13 @@
     }
 
     .img-laptop {
-        width: 15%;
+        width: 13%;
         top: 38%;
         right: 23%;
     }
 
     .img-moon {
-        width: 11%;
+        width: 9%;
         top: 15%;
         left: 40%;
     }
@@ -239,15 +262,59 @@
         left: 23%;
     }
 
-    .presentation {
+    .super-tache-astro {
+        width: 25%;
+    }
+
+    /**************** CONTENU *****************/
+    .title-text-presentation {
         width: 64%;
-        text-align: right;
-        margin: 0;
-        margin-right: 3em;
     }
 
 }
 
 /* TV ou 4K  */
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
+
+    /**************** IMAGES *****************/
+    .img-astro {
+        top: 8%;
+        width: 23%;
+        right: 1%;
+    }
+
+    .img-saturn {
+        width: 17%;
+        top: -10%;
+        left: 2%;
+    }
+
+    .img-laptop {
+        width: 13%;
+        top: 38%;
+        right: 23%;
+    }
+
+    .img-moon {
+        width: 9%;
+        top: 15%;
+        left: 40%;
+    }
+
+    .img-earth {
+        width: 8%;
+        top: 63%;
+        left: 23%;
+    }
+
+    .super-tache-astro {
+        width: 25%;
+    }
+
+    /**************** CONTENU *****************/
+    .presentation p {
+        width: 60%;
+        margin-left: 40%;
+    }
+
 }
