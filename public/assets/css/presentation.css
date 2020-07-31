@@ -1,3 +1,6 @@
+/****************************** PRESENTATION ******************************/
+
+/* MOBILE  */
 @media only screen and (min-width: 1px) { 
 
     /**************** FONTS *****************/
@@ -10,7 +13,6 @@
         font-family: "fragment";
         src: url("../images/Fragmentcore.otf");
     }
-
 
     /**************** WAVES *****************/
     .custom-shape-divider-bottom-1596091591 {
@@ -51,50 +53,50 @@
     }
 
     /************** IMAGES **************/
-    .all-images {
+    .presentation__images {
         position: relative;
     }
 
-    .img-astro {
+    .presentation__images--astro {
         position: absolute;
         top: 5%;
         width: 26%;
         right: 0;
     }
 
-    .img-saturn {
+    .presentation__images--saturn {
         position: absolute;
         width: 20%;
         top: -10%;
         left: 2%;
     }
 
-    .img-laptop {
+    .presentation__images--laptop {
         position: absolute;
         width: 17%;
         top: 26%;
         right: 22%;
     }
 
-    .img-moon {
+    .presentation__images--moon {
         position: absolute;
         width: 13%;
         top: -10%;
         right: 45%;
     }
 
-    .img-earth {
+    .presentation__images--earth {
         position: absolute;
         width: 11%;
         top: 46%;
         left: 27%;
     }
 
-    .super-tache {
+    .presentation__images--super-tache {
         display: none;
     }
 
-    .super-tache-astro {
+    .presentation__images--super-tache-astro {
         display: none;
     }
 
@@ -106,100 +108,123 @@
         padding-top: 0.5em;
     }
 
-    .presentation {
+    main {
+        position: relative;
+    }
+
+    .presentation__bloc--text {
         display: block;
        margin: auto;
        width: 85%;
         padding-top: 1em;
-        padding-bottom: 3em;
+        padding-bottom: 2em;
     }
 
-    .presentation p {
+    .presentation__bloc--text p {
         padding-left: 1em;
         padding-right: 1em;
         font-weight: lighter;
         
     }
 
-    main {
-        position: relative;
+
+    .presention__bloc--text__link {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 0.5em;
+    }
+
+    .presention__bloc--text__link a {
+        width: 50%;
+        padding: 0.5em;
+        box-sizing: border-box;
+    }
+
+    .presention__bloc--text__link a:hover {
+        color: rgb(130, 161, 172);
     }
 }
 
+/* TABLETTE  */
 @media only screen and (min-width: 768px) {
 
     /**************** IMAGES *****************/
-    .img-laptop {
+    .presentation__images--laptop {
         top: 34%;
         right: 22%;
     }
 
-    .img-earth {
+    .presentation__images--earth {
         width: 10%;
         top: 50%;
         left: 25%;
     }
 
-    .img-moon {
+    .presentation__images--moon {
         top: 1%;
         left: 43%;
     }
 
     /**************** CONTENU *****************/
-    .presentation {
+    .presentation__bloc--text {
         display: block;
         width: 65%;
         margin: auto;
     }
 
-
+    .presention__bloc--text__link a {
+        width: auto;
+    }
 }
 
+/* ORDI PORTABLE   */
 @media screen and (min-width: 769px) {
 
     /**************** IMAGES *****************/
-    .img-astro {
+    .presentation__images--astro {
         top: 8%;
         width: 28%;
         right: 1%;
     }
 
-    .img-saturn {
+    .presentation__images--saturn {
         width: 17%;
         top: -9%;
         left: 5%;
     }
 
-    .img-laptop {
+    .presentation__images--laptop {
         width: 15%;
         top: 36%;
         right: 26%;
     }
 
-    .img-moon {
+    .presentation__images--moon {
         width: 10%;
         top: 20%;
         left: 44%;
     }
 
-    .img-earth {
+    .presentation__images--earth {
         width: 9%;
         top: 62%;
         left: 24%;
     }
 
-    .super-tache {
+    .presentation__images--super-tache {
         display: block;
         width: 27%;
         margin-left: 4em;
         margin-top: 1em;
     }
 
-    .super-wave {
+    .presentation__images--super-wave {
         display: none;
     } 
 
-    .super-tache-astro {
+    .presentation__images--super-tache-astro {
         display: block;
         position: absolute;
         width: 30%;
@@ -208,23 +233,27 @@
     }
 
     /**************** CONTENU *****************/
-    .title-text-presentation {
+    .presentation__bloc {
         width: 64%;
         text-align: right;
     }
 
-    .title-text-presentation h1 {
+    .presentation__bloc h1 {
         text-align: right;
     }
 
-    .presentation {
+    .presentation__bloc--text {
         margin: 0em;
         width: 100%;
         padding-right: 0em;
     }
 
-    .presentation p {
+    .presentation__bloc--text p {
         padding-right: 0em;
+    }
+
+    .presention__bloc--text__link {
+        justify-content: flex-end;
     }
 }
 
@@ -232,43 +261,43 @@
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
 
     /**************** IMAGES *****************/
-    .img-astro {
+    .presentation__images--astro {
         top: 8%;
         width: 23%;
         right: 1%;
     }
 
-    .img-saturn {
+    .presentation__images--saturn {
         width: 17%;
         top: -10%;
         left: 2%;
     }
 
-    .img-laptop {
+    .presentation__images--laptop {
         width: 13%;
         top: 38%;
         right: 23%;
     }
 
-    .img-moon {
+    .presentation__images--moon {
         width: 9%;
         top: 15%;
         left: 40%;
     }
 
-    .img-earth {
+    .presentation__images--earth {
         width: 8%;
         top: 63%;
         left: 23%;
     }
 
-    .super-tache-astro {
+    .presentation__images--super-tache-astro {
         width: 25%;
     }
 
     /**************** CONTENU *****************/
-    .title-text-presentation {
-        width: 64%;
+    .presentation__bloc--text {
+        width: 100%;
     }
 
 }
@@ -277,42 +306,42 @@
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
 
     /**************** IMAGES *****************/
-    .img-astro {
+    .presentation__images--astro {
         top: 8%;
         width: 23%;
         right: 1%;
     }
 
-    .img-saturn {
+    .presentation__images--saturn {
         width: 17%;
         top: -10%;
         left: 2%;
     }
 
-    .img-laptop {
+    .presentation__images--laptop {
         width: 13%;
         top: 38%;
         right: 23%;
     }
 
-    .img-moon {
+    .presentation__images--moon {
         width: 9%;
         top: 15%;
         left: 40%;
     }
 
-    .img-earth {
+    .presentation__images--earth {
         width: 8%;
         top: 63%;
         left: 23%;
     }
 
-    .super-tache-astro {
+    .presentation__images--super-tache-astro {
         width: 25%;
     }
 
     /**************** CONTENU *****************/
-    .presentation p {
+    .presentation__bloc--text p {
         width: 60%;
         margin-left: 40%;
     }
