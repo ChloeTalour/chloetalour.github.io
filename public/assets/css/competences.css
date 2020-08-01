@@ -9,16 +9,22 @@ footer {
     .fourth-section_card {
         display: flex;
         flex-wrap: wrap;
+        align-items: stretch;
+    }
+
+    .fourth-section_card article:first-of-type {
+        margin-top: 1em;
     }
 
     .fourth-section_card__article {
         width: 80%;
-        margin: auto;
+        margin: 0em auto;
         box-shadow: 1px 6px 36px -23px black;
         margin-bottom: 1em;
         background-color: rgb(54, 54, 54);
         border-radius: 10%;
         color: white;
+        box-sizing: border-box;
     }
 
     .fourth-section_card__article__img {
@@ -50,10 +56,16 @@ footer {
     .fourth-section_card {
         display: flex;
         align-items: stretch;
+        margin-top: 1em;
     }
 
     .fourth-section_card__article {
         width: 40%;
+        max-height: 100%;
+    }
+
+    .fourth-section_card article:first-of-type {
+        margin-top: 0em;
     }
     
 }
