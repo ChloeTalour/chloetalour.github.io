@@ -13,28 +13,30 @@
     }
 
     .parcours__article--frise__bloc--element__date {
-        margin-left: 1em;
+        margin-left: 1.5em;
         margin-right: 0.5em;
-        border: 1px solid rgb(255, 255, 255);
-        padding: 0.8em;
+        padding: 0.5em;
         border-radius: 10px;
         display: inline-block;
-        /* box-shadow: 1px 6px 36px -23px black; */
-        font-weight: bold;
+        /* font-weight: bold; */
+        text-size-adjust: auto;
         color: rgb(255, 255, 255);
+        background: linear-gradient(to top right, rgba(130, 161, 172, .4)6%, black 90%);
+        font-family: 'Quicksand', sans-serif;
     }
 
     .parcours__article--frise__bloc--element__text {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 1em;
+        margin-top: 1.5em;
         margin-bottom: 2em;
         padding-left: 2.3em;
         width: 90%;
         text-transform: uppercase;
         font-weight: bold;
         color: white;
-        font-size: 0.8em;
+        font-size: 0.9em;
+        border-bottom: 1px dotted  rgba(130, 161, 172, .3);
     }
 
     .parcours__article--frise__bloc--element__school {
@@ -42,6 +44,12 @@
         text-transform: none;
         padding-top: 1em;
         font-weight: lighter;
+        padding-bottom: 1em;
+        /* border-bottom: 1px dashed rgba(130, 161, 172, .2); */
+    }
+
+    .parcours__article--frise__bloc--element__school:hover {
+        color:  rgb(130, 161, 172) ;
     }
 
     .parcours__article--frise {
@@ -50,7 +58,7 @@
     }
 
     .parcours__article--frise__bloc {
-        border-left: 1px solid rgb(255, 255, 255);
+        border-left: 1.5px solid rgba(130, 161, 172, .5);
         margin-left: 0.5em;
     }
 
@@ -60,7 +68,7 @@
 
     .parcours__article--frise__line {
         margin-left: 1em;
-        border-radius: 1em;
+        border-radius: 10px;
         display: inline-block;
     }
 
@@ -68,7 +76,6 @@
         width: 2.8em;
         height: 3.2em;
         border-radius: 20px;
-       
         position: absolute;
         left: -23px;
         top: 1px;
@@ -79,6 +86,9 @@
 
 @media only screen and (min-width: 768px) {
     
+    h2 {
+        font-size: 2.5em;
+    }
     .parcours__article--frise__bloc {
         margin-left: 49%;
     }
@@ -89,11 +99,16 @@
 
     .parcours__article--frise__bloc--element__date {
         position: absolute;
+        border-width: 2px;
+        border-style: solid;
+        border-image: 
+          linear-gradient(
+          -198deg, rgb(130, 161, 172), black, black, rgb(130, 161, 172)) 1;
+          background: none;
     }
 
     .parcours__article--frise__bloc--element__text {
         padding-bottom: 1em;
-        border-bottom: 1px dotted  rgba(188, 143, 143, 0.2); 
     }
 
     .frise-first {
@@ -115,4 +130,8 @@
     .frise-five {
         left: -150px;
     }
+
+
+
+
 }
