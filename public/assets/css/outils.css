@@ -13,4 +13,8 @@
     .title-outils {
         transform: rotate(-5deg);
     }
+
+    .outils {
+        margin-bottom: 1em;
+    }
 }
