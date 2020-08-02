@@ -6,6 +6,7 @@
         color: white;
         transform: rotate(-5deg);
         /* margin-bottom: 0.5em; */
+        width: 94%;
     }
 
     .parcours__article {

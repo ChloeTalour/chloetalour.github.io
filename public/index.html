@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/parcours.css">
     <link rel="stylesheet" href="./assets/css/competences.css">
     <link rel="stylesheet" href="./assets/css/outils.css">
+    <link rel="stylesheet" href="./assets/css/passions.css">
     <link rel="stylesheet" href="./assets/css/portfolio.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
@@ -23,12 +24,12 @@
                     <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
                     <label for="menu-checkbox" class="menu-toggle">≡</label>
                     <ul class="navigation__container--menu">
-                        <li class="navigation__container--menu_li first-item"><a class="navigation__container--menu_a" href="">Mon Parcours</a></li>
-                        <li class="navigation__container--menu_li"><a class="navigation__container--menu_a" href="">Mes expériences</a></li>
-                        <li class="navigation__container--menu_li"><a class="navigation__container--menu_a" href="">Mes compétences</a></li>
-                        <li class="navigation__container--menu_li"><a class="navigation__container--menu_a" href="">Mes outils</a></li>
-                        <li class="navigation__container--menu_li"><a class="navigation__container--menu_a" href="">Mes centres d'intérets</a></li>
-                        <li class="navigation__container--menu_li"><a class="navigation__container--menu_a" href="">Mon portfolio</a></li>
+                        <li class="navigation__container--menu_li first-item"><a class="navigation__container--menu_a" href="#mon-parcours">Mon Parcours</a></li>
+                        <li class="navigation__container--menu_li"><a class="navigation__container--menu_a" href="#mes-experiences">Mes expériences</a></li>
+                        <li class="navigation__container--menu_li"><a class="navigation__container--menu_a" href="#mes-competences">Mes compétences</a></li>
+                        <li class="navigation__container--menu_li"><a class="navigation__container--menu_a" href="#mes-outils">Mes outils</a></li>
+                        <li class="navigation__container--menu_li"><a class="navigation__container--menu_a" href="#mes-passions">Mes passions</a></li>
+                        <li class="navigation__container--menu_li"><a class="navigation__container--menu_a" href="#mon-portfolio">Mon portfolio</a></li>
                     </ul>
                 </div>
         </nav>
@@ -59,9 +60,9 @@
                             Lors de ma formation, j’ai pu apprendre : le HTML /CSS,  le PHP, le Javascript, Lumen, React mais également Git, AWS, Linux et Mac.
                         </p>
                         <div class="presention__bloc--text__link">
-                            <a href="https://github.com/ChloeTalour">Mon GitHub</a>
-                            <a href="https://www.linkedin.com/in/chlo%C3%A9-talour-032a631b1/">Mon Linkedin</a>
-                            <a href="mailto:talour.chloe@protonmail.com">Mon Email</a>
+                            <a href="https://github.com/ChloeTalour">GitHub</a>
+                            <a href="https://www.linkedin.com/in/chlo%C3%A9-talour-032a631b1/">Linkedin</a>
+                            <a href="mailto:talour.chloe@protonmail.com">Email</a>
                         </div>
                     </div>
                 </div>
@@ -129,7 +130,7 @@
 
         </section>
 
-        <section class="experiences">
+        <section id="mes-experiences" class="experiences">
             <h2 class="title-black">Mes expériences</h2>
 
             <div class="experiences__frise">
@@ -191,7 +192,7 @@
             </svg>
         </div>
 
-        <section>
+        <section id="mes-competences">
         <div class="fourth-section">
                 <h2>Mes compétences</h2>
             
@@ -250,7 +251,7 @@
 
         </section>
 
-        <section class="outils">
+        <section id="mes-outils" class="outils">
             <h2 class="title-black title-outils">Mes outils</h2>
 
             <div class="fourth-section_card">
@@ -258,7 +259,7 @@
                 <article class="fourth-section_card__article article__white">
                     <img class="fourth-section_card__article__img article__img--white" src="./assets/images/lumen.png" alt="lumen">
                     <h3 class="fourth-section_card__article__title article__title--white" >Lumen</h3>
-                    <p class="fourth-section_card__article_description article__description--white" >Création d'un BackOffice pour un site de E-commerce. Utilisation d'un ORM : Eloquent. </p>
+                    <p class="fourth-section_card__article_description article__description--white" >Création d'un BackOffice pour un site de E-commerce. Utilisation d'un ORM : Eloquent</p>
                 </article>
                 <article class="fourth-section_card__article article__white">
                     <img class="fourth-section_card__article__img article__img--white" src="./assets/images/react.png" alt="react">
@@ -306,12 +307,62 @@
             </svg>
         </div>
 
-        <section>
-            <div class="portfolio">
-                    <h2>Mon portfolio</h2>
-                
-   
+        <section id="mes-passions">
+            <div class="passions">
+                    <h2>Mes Passions</h2>
+
+                <div class="passions__div">
+                        <div class=" box"> 
+                            <article class="passions__div--article passions__voyage box-inner">
+                                <div class="box-back">
+                                    <p>Japon, Italie, Allemagne, Ecosse, Irlande, Angletterre, Amsterdam, Espagne</p>
+                                </div>
+                                <div class="box-front">
+                                    <h3>Voyages</h3>
+                                </div>
+                            </article>
+                        </div>
+    
+                        <div class=" box"> 
+                            <article class="passions__div--article passions__dessin box-inner">
+                                <div class="box-back">
+                                    <ul>
+                                        <li>Découverte de Blender pour faire de la 3D</li>
+                                        <li>Apprentissage du dessin avec Procreate</li>
+                                        <li>Découverte de designer Affinity pour faire du graphisme vectoriel</li>
+                                    </ul>
+                                </div>
+                                <div class="box-front">
+                                    <h3>Dessin</h3>
+                                </div>
+                            </article>
+                        </div>
+    
+                        <div class=" box"> 
+                            <article class="passions__div--article passions__nourriture box-inner">
+                                <div class="box-back">
+                                    <p>Manger toutes les cuisines du monde</p>
+                                </div>
+                                <div class="box-front">
+                                    <h3>Manger</h3>
+                                </div>
+                            </article>
+                        </div>
+    
+                        <div class=" box"> 
+                            <article class="passions__div--article passions__photo box-inner">
+                                <div class="box-back">
+                                    <p>Toujours mon appareil photo ou mon portable à la main, j'aime photographier principalement des paysages</p>
+                                </div>
+                                <div class="box-front">
+                                    <h3>Photographie</h3>
+                                </div>
+                            </article>
+                        </div>
+                </div>
+            
             </div>
+
     
                 <div class="custom-shape-divider-top-1596122627">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -321,13 +372,25 @@
                     </svg>
                 </div>
     
-            </section>
+        </section>
+
+        <section id="mon-portfolio" class="portfolio">
+            <h2 class="title-black title-outils ">Mon portfolio</h2>
+            <p>En cours de production...</p>
+        </section>
 
     </main>
 
+    <div class="custom-shape-divider-bottom-1596091591">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
     <footer>
         ©2020 Chloé Talour
-</footer>
+    </footer>
     
 </body>
 </html>
