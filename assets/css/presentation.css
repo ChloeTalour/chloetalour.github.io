@@ -254,6 +254,10 @@
     .presention__bloc--text__link {
         justify-content: flex-end;
     }
+
+    h1 {
+        font-size: 4.5em;
+    }
 }
 
 /* LAPTOP L  */
