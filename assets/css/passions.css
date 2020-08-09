@@ -97,7 +97,7 @@
             vertical-align: middle;
             display: table;
             padding: 1em;
-            font-weight: 250;
+            /* font-weight: 250; */
     }
 
     .box-back p, .box-back ul {

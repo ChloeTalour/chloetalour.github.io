@@ -1,3 +1,95 @@
-.portfolio p {
-    text-align: center;
+@media only screen and (min-width: 1px) {
+
+    .portfolio p {
+        text-align: center;
+    }
+
+    .portfolio__article {
+        max-width: 100%;
+        position: relative;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .portfolio__burger {
+        background-image: url(../images/golittleburger.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .portfolio__div--article {
+        width: 80%;
+        margin: auto;
+        box-sizing: border-box;
+        height: 12em;
+        border-radius: 10px;
+        margin-bottom: 1em;
+        position: relative;
+    }
+
+    .box-portfolio {
+        transition: none;
+    }
+
+    .portfolio__burger h3 {
+        color: white;
+    }
+
+    .back-portfolio {
+        background-color: black;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .back-portfolio p {
+        margin-top: 1em;
+        background-color: transparent;
+    }
+
+    .box-portfolio a {
+        white-space: nowrap;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: .5em 1em;  
+    }
+
+    .portfolio__cv {
+        background-image: url(../images/siteCV.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: white;
+
+    }
+
+    .portfolio__div {
+        display: flex;
+        flex-direction: column; 
+    }
 }
+
+@media screen and (min-width: 426px) {
+    .portfolio__div {
+        flex-direction: row;
+        align-self: stretch;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 80%;
+        margin-top: 2em;
+    }
+
+
+    .portfolio__article {
+        width: 50%;
+    }
+
+    .portfolio__box {
+        width: 100%;
+    }
+}
+

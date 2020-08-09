@@ -242,9 +242,9 @@
         background-color: black ;
         animation: morph 8s ease-in-out infinite;
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-        height: 18em;
+        height: 140%;
         transition: all 1s ease-in-out;
-        width: 16em;
+        width: 30%;
     }
 
     /**************** CONTENU *****************/
@@ -313,6 +313,7 @@
 
     .presentation__images--super-tache-astro {
         width: 25%;
+        height: 100%;
     }
 
     /**************** CONTENU *****************/
@@ -358,6 +359,8 @@
 
     .presentation__images--super-tache-astro {
         width: 25%;
+        height: 116%;
+        margin: 1em;
     }
 
     /**************** CONTENU *****************/
