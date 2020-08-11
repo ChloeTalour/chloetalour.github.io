@@ -1,5 +1,6 @@
 @media only screen and (min-width: 1px) {
 
+
     .portfolio p {
         text-align: center;
     }
@@ -12,9 +13,13 @@
 
     .portfolio__burger {
         background-image: url(../images/golittleburger.png);
+    }
+
+    .portfolio__burger, .portfolio__convert, .portfolio__todolist, .portfolio__cv, .portfolio__blog {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        color: white;
     }
 
     .portfolio__div--article {
@@ -60,16 +65,25 @@
 
     .portfolio__cv {
         background-image: url(../images/siteCV.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        color: white;
 
+    }
+
+    .portfolio__todolist {
+        background-image: url(../images/todolist.png);
     }
 
     .portfolio__div {
         display: flex;
         flex-direction: column; 
+        justify-content: center;
+    }
+
+    .portfolio__convert {
+        background-image: url(../images/convertor.png);
+    }
+
+    .portfolio__blog {
+        background-image: url(../images/blog.png);
     }
 }
 
