@@ -15,7 +15,15 @@
         background-image: url(../images/golittleburger.png);
     }
 
-    .portfolio__burger, .portfolio__convert, .portfolio__todolist, .portfolio__cv, .portfolio__blog {
+    .portfolio__carnetdeVoyage {
+        background-image: url(../images/carnetdevoygae.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+    }
+
+    .portfolio__burger, .portfolio__convert, .portfolio__todolist, .portfolio__cv, .portfolio__blog .portfolio__carnetdeVoyage {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -84,6 +92,9 @@
 
     .portfolio__blog {
         background-image: url(../images/blog.png);
+        color: white;
+        background-size: cover;
+        background-position: center;
     }
 }
 
